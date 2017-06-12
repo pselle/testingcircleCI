@@ -1,0 +1,16 @@
+{
+  "name": "testingCircleCI",
+  "version": "0.4.3",
+  "description": "Testing Circle CI NPM deployment w webpack",
+  "main": "dist/iopipe.js",
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "prepare": "webpack --progress --profile --colors",
+  },
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "webpack": "2.6.1"
+  }
+}
