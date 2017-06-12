@@ -5,7 +5,8 @@
   "main": "dist/iopipe.js",
   "scripts": {
     "build": "webpack --progress --profile --colors",
-    "prepare": "webpack --progress --profile --colors"
+    "prepare": "webpack --progress --profile --colors",
+    "test": "echo Hi"
   },
   "files": [
     "dist/"
