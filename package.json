@@ -1,5 +1,5 @@
 {
-  "name": "testingCircleCI",
+  "name": "testingcircleci",
   "version": "0.4.3",
   "description": "Testing Circle CI NPM deployment w webpack",
   "main": "dist/iopipe.js",
