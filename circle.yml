@@ -8,7 +8,7 @@ deployment:
   release:
     branch: master
     commands:
-      - npm run build
+      # - npm run build
       # login using environment variables
       - echo -e "$NPM_USERNAME\n$NPM_PASSWORD\n$NPM_EMAIL" | npm login
       - npm publish
